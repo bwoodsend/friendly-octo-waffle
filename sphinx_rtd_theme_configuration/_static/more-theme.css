@@ -25,7 +25,7 @@
 
 /* --- Enable text wrapping in tables. --- */
 .wy-table-responsive table td, .wy-table-responsive table th {
-    white-space: normal;
+  white-space: normal;
 }
 
 /* Move padding beneath the last contents entry so that there isn't
@@ -37,12 +37,14 @@
 .rst-content .section ul.spacious li { margin-bottom: 18px; }
 
 /* Make the sidebar shrink if the window is narrow (e.g. panel left-ed). */
-.wy-nav-side {
-  width: min(28%, 300px);
-}
-.wy-side-scroll, .wy-side-nav-search, .wy-menu-vertical {
-  width: 100%;
-}
-.wy-nav-content-wrap {
-  margin-left: min(28%, 300px);
+@media screen and (min-width: 768px) {
+  .wy-nav-side, .rst-version {
+    width: min(28%, 300px);
+  }
+  .wy-side-scroll, .wy-side-nav-search, .wy-menu-vertical {
+    width: 100%;
+  }
+  .wy-nav-content-wrap {
+    margin-left: min(28%, 300px);
+  }
 }
