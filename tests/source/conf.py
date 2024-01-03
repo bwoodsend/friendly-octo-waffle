@@ -17,7 +17,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'test-docs'
-copyright = '2021, Brénainn Woodsend'
+copyright = '2021-2024, Brénainn Woodsend'
 author = 'Brénainn Woodsend'
 
 # -- General configuration ---------------------------------------------------
